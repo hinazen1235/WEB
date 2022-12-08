@@ -1,0 +1,34 @@
+.container{
+    text-align: center;
+}
+.inner{
+    width: 70vw;
+    min-height: 80vh;
+    margin: 0 auto;
+    font-size: 0;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+.inner .item{
+    display: inline-block;
+    width: 25%;
+    height: 20vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.color1{background-color: tomato;}
+.color2{background-color: cornflowerblue;}
+.color3{background-color: mediumseagreen;}
+.color4{background-color: slateblue;}
+.color5{background-color: #00d2d3;}
+.color6{background-color: #e15f41;}
+.color7{background-color: #303952;}
+.color8{background-color: #c44569;}
+.color9{background-color: rgb(123,51,23);}
+.color10{background-color:  rgb(13,51,23);}
+.color11{background-color:  rgba(131,51,223,0.2);}
+.color12{background-color:  rgba(131,51,223,0.8);}
+.color13{background-color: hsl(128, 50%, 50%)}
+.color14{background-color: hsl(128, 100%, 50%);}
+.color15{background-color: hsl(128, 50%, 100%);}
+.color16{background-color: hsl(128, 100%, 100%);}

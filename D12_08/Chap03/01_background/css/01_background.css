@@ -1,0 +1,60 @@
+.container{text-align: center;}
+.inner{
+    width: 50vw;
+    min-height: 50vh;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+.back1{
+    background-image: url(../img/aloha.png);
+}
+.back2{
+    background-image: url(../img/aloha.png);
+    min-height: 190px;
+    background-size: 200px 190px;
+    background-repeat: repeat-x;
+}
+.back3{
+    background-image: url(../img/aloha.png);
+    min-height: 600px;
+    background-size: 200px;
+    background-repeat: repeat-y;
+}
+.back4{
+    background-image: url(../img/aloha.png);
+    min-height: 190px;
+    background-size: 200px 190px;
+    background-repeat: no-repeat;
+}
+.left{
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.right{
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.center{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top-right{
+    block-size: 50 45;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.top-left{
+    block-size: 50 45;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.center-center{
+    block-size: 50 45;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.top-right{
+    block-size: 50 45;
+    background-repeat: no-repeat;
+    background-position: top right;
+}

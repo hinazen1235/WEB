@@ -1,0 +1,49 @@
+.container{
+    width: 960px;
+    min-height: 400px;
+    margin: 0 auto;
+    border: 3px dashed orange;
+}
+li{
+    display: inline;/*W H 적용 안됨*/
+    display: inline-block;/*이건 됨*/
+    /*
+    inline 크기 가지지 않고 한줄배치
+    block 크기를 가지면서 한줄 전체를 차지하면서 배치
+    inline-block 크기를 가지면서 한줄에 나란히 배치
+    */
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px 20px;
+    text-align: center;
+}
+li:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+.none{display: none;}
+.hidden{visibility: hidden;}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: royalblue;
+    padding: 10px;
+}
+.item img{width: 100%;}
+.row{
+    display: flex;
+    flex-direction: wrap;
+    padding: 0px 4px;
+}
+.col{
+    flex-basis: 33.3333%;
+    min-width: 33.3333;
+    padding: 0px 4px;
+    box-sizing: border-box;
+}
+.col img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100;
+}
